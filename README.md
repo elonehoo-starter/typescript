@@ -1,5 +1,7 @@
 # starter-ts
 
+[![NPM version](https://img.shields.io/npm/v/@elonehoo/starter-ts?color=a1b858&label=)](https://www.npmjs.com/package/@elonehoo/starter-ts)
+
 Starter template for TypeScript library.
 
 ## Try it now!
