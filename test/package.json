@@ -6,7 +6,7 @@
     "ui": "vitest --ui"
   },
   "dependencies": {
-    "@vitest/ui": "^0.28.4",
-    "vitest": "^0.28.4"
+    "@vitest/ui": "^0.29.2",
+    "vitest": "^0.29.2"
   }
 }
