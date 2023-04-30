@@ -31,6 +31,7 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
+    "stale": "stale-del -u",
     "test": "vitest",
     "ui": "vitest --ui",
     "lint": "eslint .",
@@ -40,13 +41,14 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.5",
-    "@types/node": "^18.16.0",
+    "@types/node": "^18.16.3",
+    "@vitest/ui": "^0.30.1",
     "bumpp": "^9.1.0",
     "eslint": "^8.39.0",
+    "statl-del": "^0.0.4",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4",
-    "vite": "^4.3.1",
-    "@vitest/ui": "^0.29.2",
-    "vitest": "^0.29.2"
+    "vite": "^4.3.3",
+    "vitest": "^0.30.1"
   }
 }
