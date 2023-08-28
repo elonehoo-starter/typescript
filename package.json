@@ -49,7 +49,7 @@
     "eslint": "^8.47.0",
     "statl-del": "^0.0.4",
     "typescript": "^5.1.6",
-    "unbuild": "^1.2.1",
+    "unbuild": "^2.0.0",
     "vite": "^4.4.9",
     "vitest": "^0.34.2"
   }
