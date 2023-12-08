@@ -28,7 +28,7 @@ jobs:
           cache: pnpm
 
       - name: Install
-        run: pnpm install --no-frozen-lockfile
+        run: pnpm install
 
       - name: Lint and fix
         run: pnpm run lint:fix
