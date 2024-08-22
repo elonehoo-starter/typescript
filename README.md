@@ -8,14 +8,14 @@ Starter template for TypeScript library.
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/elonehoo/starter-ts/generate).
+[Create a repo from this template on GitHub](https://github.com/elonehoo-starter/typescript/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-sudo npx degit elonehoo/starter-ts my-ts-app
+sudo npx degit elonehoo-starter/typescript my-ts-app
 cd my-ts-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
