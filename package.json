@@ -16,23 +16,18 @@
     "TypeScript"
   ],
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
-    },
-    "./*": "./*"
+    ".": "./dist/index.js"
   },
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "*.d.ts",
     "dist"
   ],
   "scripts": {
-    "dev": "unbuild --stub",
-    "build": "unbuild",
+    "dev": "tsdown --watch",
+    "build": "tsdown",
     "stale": "stale-del -u",
     "test": "vitest",
     "ui": "vitest --ui",
@@ -42,15 +37,14 @@
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "4.10.1",
-    "@types/node": "^22.13.10",
-    "@vitest/ui": "^3.0.9",
-    "bumpp": "^10.1.0",
-    "eslint": "^9.22.0",
-    "statl-del": "^0.0.4",
-    "typescript": "^5.8.2",
-    "unbuild": "^3.5.0",
-    "vite": "^6.2.2",
-    "vitest": "^3.0.9"
+    "@antfu/eslint-config": "catalog:lint",
+    "@types/node": "catalog:types",
+    "@vitest/ui": "catalog:test",
+    "bumpp": "catalog:build",
+    "eslint": "catalog:lint",
+    "statl-del": "catalog:utils",
+    "tsdown": "catalog:build",
+    "typescript": "catalog:types",
+    "vitest": "catalog:test"
   }
 }
