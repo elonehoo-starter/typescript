@@ -1,17 +1,18 @@
 catalogs:
   build:
     bumpp: ^10.3.1
-    tsdown: ^0.15.6
+    tsdown: ^0.15.7
   lint:
-    '@antfu/eslint-config': ^5.4.1
+    '@antfu/eslint-config': ^6.0.0
     eslint: ^9.37.0
   test:
-    "@vitest/ui": ^3.2.4
+    '@vitest/ui': ^3.2.4
     vitest: ^3.2.4
   types:
-    '@types/node': ^24.7.0
+    '@types/node': ^24.7.2
     typescript: ^5.9.3
   utils:
     statl-del: ^0.0.4
+
 onlyBuiltDependencies:
   - esbuild
